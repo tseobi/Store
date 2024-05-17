@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Dryer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-image {
+            text-align: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-details {
+            margin-top: 20px;
+        }
+        .product-details h1 {
+            margin-top: 0;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            background-color: #e9e9e9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .cta-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Portable Dryer</h1>
+        <p>The ultimate solution for drying clothes in small spaces</p>
+    </div>
+
+    <div class="container">
+        <div class="product-image">
+            <img src="portable-dryer.jpg" alt="Portable Dryer">
+        </div>
+
+        <div class="product-details">
+            <h1>Compact, Efficient, and Convenient</h1>
+            <p>Our portable dryer is designed to fit seamlessly into your lifestyle. Whether you live in a small apartment, dorm, or simply need an extra drying solution, this dryer is perfect for you.</p>
+            
+            <h2>Features:</h2>
+            <ul class="features">
+                <li>Compact and lightweight design</li>
+                <li>Fits easily into a case and can be stored in your cupboard</li>
+                <li>Energy-efficient drying technology</li>
+                <li>Quiet operation</li>
+                <li>Easy to use and maintain</li>
+            </ul>
+
+            <a href="#" class="cta-button">Buy Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
